@@ -41,12 +41,8 @@ PI_PARALLEL = False
 PI_TARGET_SIZE = (10, 10)
 
 BA_GROUPS = {
-    "group_1": ["SRP", "AZPS", "CISO", "TEPC", "WALC"],
-    "group_2": ["NWMT", "AVA", "BPAT", "IPCO", "PACE", "WAUW"],
-    "group_3": ["WALC", "AZPS", "CISO", "IID", "NEVP", "SRP", "TEPC", "WACM"],
-    "group_4": ["CISO", "AZPS", "BANC", "BPAT", "IID", "NEVP", "PACW", "SRP", "TIDC", "WALC"],
-    "group_5": ["PSEI", "BPAT", "CHPD", "GCPD", "SCL", "TPWR"],
-    "group_6": ["TEPC", "AZPS", "EPE", "PNM", "SRP", "WALC"],
+    "NWMT": ["NWMT", "AVA", "BPAT", "IPCO", "PACE", "WAUW"],
+    "CISO": ["CISO", "AZPS", "BANC", "BPAT", "IID", "NEVP", "PACW", "SRP", "TIDC", "WALC"],
 }
 
 def resize_pi_images(pi_images, target_size=PI_TARGET_SIZE):
