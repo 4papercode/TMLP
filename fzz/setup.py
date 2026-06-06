@@ -11,9 +11,9 @@ src_files.append(pth.join(__cpp_src_dir, 'pyfzz.cpp'))
 src_files.append(pth.join(__cpp_src_dir, '../fzz.cpp'))
 setup(name='pyfzz',
       version='0.0.0',
-      author='Soham Mukherjee',
-      description="A simple Python wrapper for Fast Zigzag originally written by Tao Hou in C++",
-      author_email='soham.juetce@gmail.com',
+      author='xx',
+      description="xx",
+      author_email='xx',
       python_requires='>=3.7',
       classifiers=[
         'Programming Language :: Python :: 3',
