@@ -1,4 +1,4 @@
-name: TMPL
+name: TMLP
 channels:
   - conda-forge
   - defaults
