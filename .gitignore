@@ -1,0 +1,10 @@
+
+# fzz generated files
+*.so
+*.dylib
+*.dll
+*.o
+*.egg-info/
+__pycache__/
+*.pyc
+.DS_Store
