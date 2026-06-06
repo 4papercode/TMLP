@@ -1,0 +1,1 @@
+This is the electric load dataset of the Western Electricity Coordinating Council (WECC) power grid. It contains hourly electricity demand and related features (generation, interchange, weather, population) for 28 Balancing Authorities (BAs) in the western United States from 2016 to 2024.
