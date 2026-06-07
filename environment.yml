@@ -129,7 +129,7 @@ dependencies:
     - setuptools==70.2.0
     - shellingham==1.5.4
     - six==1.17.0
-    - sktime==0.40.1
+    - sktime==0.22.0
     - sortedcontainers==2.4.0
     - sympy==1.14.0
     - teaspoon==1.6.0
