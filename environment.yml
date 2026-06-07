@@ -108,7 +108,6 @@ dependencies:
     - pot==0.9.6.post1
     - product-key-memory==0.3.0
     - pyentrp==2.1.0
-    - pyfzz==0.0.0
     - pygments==2.20.0
     - pynndescent==0.6.0
     - pyparsing==3.0.9
