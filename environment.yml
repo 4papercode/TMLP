@@ -123,13 +123,13 @@ dependencies:
     - ripser==0.6.15
     - safetensors==0.7.0
     - scikit-learn==1.2.2
-    - scikit-image==0.25.2
+    - scikit-image==0.22.0
     - scipy==1.10.1
     - seaborn==0.13.2
     - setuptools==70.2.0
     - shellingham==1.5.4
     - six==1.17.0
-    - sktime==0.22.0
+    - sktime==0.40.1
     - sortedcontainers==2.4.0
     - sympy==1.14.0
     - teaspoon==1.6.0
