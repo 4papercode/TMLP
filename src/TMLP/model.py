@@ -8,7 +8,7 @@ from PIL import Image
 
 # Import custom modules, assuming they are stored in the parent directory
 sys.path.append("../")
-from src.TimeVLM.vlm_manager import VLMManager
+from src.TMLP.vlm_manager import VLMManager
 from layers.Embed import PatchEmbedding
 from layers.Learnable_TimeSeries_To_Image import LearnableTimeSeriesToImage
 from layers.TimeSeries_To_Image import time_series_to_simple_image
@@ -109,9 +109,7 @@ class PatchMemoryBank:
 
 
 class Model(nn.Module):
-    """
-    Time-VLM model with image and text modalities for enhanced time series forecasting.
-    """
+
     def __init__(self, config, **kwargs):
         super(Model, self).__init__()
         self.config = config
@@ -588,7 +586,7 @@ class Model(nn.Module):
         Args:
         - images: A tensor containing the images to be saved with shape [B, C, H, W]
         """
-        save_dir = "ts-images/timevlm"
+        save_dir = "ts-images/tmlp"
         os.makedirs(save_dir, exist_ok=True)
         
         for i, img_tensor in enumerate(images):

@@ -23,8 +23,8 @@ echo "========================================"
 python run.py \
   --task_name        long_term_forecast \
   --is_training      1 \
-  --model            TimeVLM \
-  --model_id         wecc_full_S_${BA}_${YEAR} \
+  --model            TMLP \
+  --model_id         wecc_${BA}_${YEAR} \
   --data             WECC \
   --ba_name          $BA \
   --use_spatial      True \

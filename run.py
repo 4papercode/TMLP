@@ -29,7 +29,7 @@ if __name__ == '__main__':
     torch.manual_seed(fix_seed)
     np.random.seed(fix_seed)
 
-    parser = argparse.ArgumentParser(description='TimeVLM')
+    parser = argparse.ArgumentParser(description='TMLP')
 
     # basic config
     parser.add_argument('--task_name', type=str, required=True, default='long_term_forecast', help='task name, options:[long_term_forecast, short_term_forecast, imputation, classification, anomaly_detection, zero_shot_forecast, few_shot_forecast]')
@@ -171,7 +171,7 @@ if __name__ == '__main__':
     # few-shot forecasting
     parser.add_argument('--percent', type=float, default=1, help='proportion of in-distribution downstream dataset')
 
-    # spatial module (ST-TimeVLM)
+    # spatial module
     parser.add_argument('--use_spatial', type=str2bool, default=False,
                         help='enable spatial neighbor aggregation module')
     parser.add_argument('--ba_name', type=str, default='CISO',

@@ -1,6 +1,4 @@
 """
-Spatial Neighbor Aggregation module for ST-TimeVLM.
-
 For each target BA, aggregates time series features from its
 first-order neighbors (WECC adjacency), weighted by pre-computed
 Pearson similarity.  Isolated nodes (e.g. LDWP) are passed through

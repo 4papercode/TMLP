@@ -38,9 +38,9 @@ class Exp_Basic(object):
             'PAttn': PAttn,
             'TimeXer': TimeXer
         }
-        if args.model == 'TimeVLM':
-            from src.TimeVLM import model as TimeVLM
-            self.model_dict['TimeVLM'] = TimeVLM
+        if args.model == 'TMLP':
+            from src.TMLP import model as TMLP
+            self.model_dict['TMLP'] = TMLP
 
         self.device = self._acquire_device()
         self.model = self._build_model().to(self.device)

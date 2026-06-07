@@ -110,9 +110,7 @@ class Exp_Long_Term_Forecast(Exp_Basic):
 
     def _call_model(self, batch_x, batch_x_mark, dec_inp, batch_y_mark,
                     neighbor_xs, sim_w, pi_imgs_1, pi_imgs_2):
-        """Call model with extra WECC args for TimeVLM, plain call for others.
-        Returns (outputs, align_gt, align_mm) for TimeVLM, (outputs, 0, 0) for others."""
-        if self.args.model == 'TimeVLM':
+        if self.args.model == 'TMLP':
             outputs, align_gt, align_mm = self.model(
                 batch_x, batch_x_mark, dec_inp, batch_y_mark,
                 neighbor_x_encs=neighbor_xs, subgraph_adj=sim_w,

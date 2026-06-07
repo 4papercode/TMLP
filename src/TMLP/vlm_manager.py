@@ -6,7 +6,7 @@ from transformers import Blip2Processor, Blip2Model
 
 # Import custom modules, assuming they are stored in the parent directory
 sys.path.append("../")
-from src.TimeVLM.vlm_custom import CustomVLM
+from src.TMLP.vlm_custom import CustomVLM
 from layers.models_mae import *
 from transformers.models.vilt import *
 

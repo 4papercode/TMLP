@@ -1,5 +1,5 @@
 """
-Precompute spatial metadata for ST-TimeVLM:
+Precompute spatial metadata for ST-TMLP:
   1. Pearson correlation matrix (28x28) from historical demand
   2. First-order neighbor lists per BA (from WECC adjacency matrix)
 
